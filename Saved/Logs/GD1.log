@@ -1,425 +1,350 @@
-﻿[2015.10.21-18.35.53:741][  0]Log file open, 10/21/15 14:35:53
-[2015.10.21-18.35.53:741][  0]LogInit:Display: Running engine for game: GD1
-[2015.10.21-18.35.53:741][  0]LogInit:Display: RandInit(-1624314039) SRandInit(-1624314039).
-[2015.10.21-18.35.53:741][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-[2015.10.21-18.35.53:741][  0]LogStats: Stats thread started at 0.060012
-[2015.10.21-18.35.53:741][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.10.21-18.35.53:741][  0]LogInit: API Version: 2672455
-[2015.10.21-18.35.53:741][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2015.10.21-18.35.53:741][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.10.21-18.35.53:741][  0]LogInit: Build Configuration: Development
-[2015.10.21-18.35.53:741][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2015.10.21-18.35.53:741][  0]LogInit: Command line: 
-[2015.10.21-18.35.53:741][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
-[2015.10.21-18.35.53:741][  0]LogInit: Rocket: 1
-[2015.10.21-18.35.53:748][  0]LogInit: Using libcurl 7.41.0
-[2015.10.21-18.35.53:748][  0]LogInit:  - built for x86_64-pc-win32
-[2015.10.21-18.35.53:748][  0]LogInit:  - supports SSL with WinSSL
-[2015.10.21-18.35.53:748][  0]LogInit:  - other features:
-[2015.10.21-18.35.53:748][  0]LogInit:      CURL_VERSION_SSL
-[2015.10.21-18.35.53:748][  0]LogInit:      CURL_VERSION_IPV6
-[2015.10.21-18.35.53:748][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.10.21-18.35.53:748][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.10.21-18.35.53:748][  0]LogInit:      CURL_VERSION_IDN
-[2015.10.21-18.35.53:748][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.10.21-18.35.53:748][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.10.21-18.35.53:748][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.10.21-18.35.53:748][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.10.21-18.35.53:748][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.10.21-18.35.53:755][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.10.21-18.35.53:762][  0]LogInit: Object subsystem initialized
-[2015.10.21-18.35.53:765][  0]LogInit: Selected Device Profile: [Windows]
-[2015.10.21-18.35.53:765][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.10.21-18.35.53:773][  0]LogInit: Computer: SCHOOL
-[2015.10.21-18.35.53:773][  0]LogInit: User: pcioni
-[2015.10.21-18.35.53:773][  0]LogInit: CPU Page size=4096, Cores=2
-[2015.10.21-18.35.53:773][  0]LogInit: High frequency timer resolution =2.825623 MHz
-[2015.10.21-18.35.53:773][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
-[2015.10.21-18.35.53:773][  0]LogMemory: Platform Memory Stats for Windows
-[2015.10.21-18.35.53:773][  0]LogMemory: Process Physical Memory: 51.82 MB used, 51.82 MB peak
-[2015.10.21-18.35.53:773][  0]LogMemory: Process Virtual Memory: 57.25 MB used, 57.25 MB peak
-[2015.10.21-18.35.53:773][  0]LogMemory: Physical Memory: 3202.83 MB used, 7871.38 MB total
-[2015.10.21-18.35.53:773][  0]LogMemory: Virtual Memory: 351.79 MB used, 134217728.00 MB total
-[2015.10.21-18.35.53:805][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2015.10.21-18.35.54:632][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
-[2015.10.21-18.35.54:632][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
-[2015.10.21-18.35.54:645][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA NVS 5200M (Feature Level 11_0)
-[2015.10.21-18.35.54:645][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 0 output[s]
-[2015.10.21-18.35.54:646][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.10.21-18.35.54:646][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.10.21-18.35.54:646][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.10.21-18.35.54:650][  0]LogD3D11RHI: !Direct3DDevice
-[2015.10.21-18.35.54:650][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
-[2015.10.21-18.35.54:660][  0]LogD3D11RHI: Async texture creation enabled
-[2015.10.21-18.35.54:672][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/pcioni/Desktop/GD1/Intermediate/Shaders/WorkingDirectory/14268/).
-[2015.10.21-18.35.54:672][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/pcioni/Desktop/GD1/Intermediate/Shaders/tmp/D830F77040694D2F8CB18BB0CF0A767D/'.
-[2015.10.21-18.35.54:672][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.10.21-18.35.55:888][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2015.10.21-18.35.55:893][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.10.21-18.35.55:898][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.10.21-18.35.55:903][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.10.21-18.35.55:908][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.10.21-18.35.55:912][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.10.21-18.35.55:915][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.10.21-18.35.55:918][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.10.21-18.35.55:921][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.10.21-18.35.55:924][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.10.21-18.35.55:927][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.10.21-18.35.55:931][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.10.21-18.35.55:931][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2015.10.21-18.35.55:948][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.10.21-18.35.55:951][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.10.21-18.35.55:954][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.10.21-18.35.55:957][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.10.21-18.35.55:957][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.10.21-18.35.56:036][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.10.21-18.35.56:076][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/pcioni/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.10.21-18.35.56:076][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/pcioni/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2015.10.21-18.35.56:077][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/pcioni/Desktop/GD1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.10.21-18.35.56:077][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.10.21-18.35.56:077][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/pcioni/Desktop/GD1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.10.21-18.35.56:077][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.10.21-18.35.56:220][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.10.21-18.35.56:232][  0]LogDerivedDataCache: Using Local data cache path C:/Users/pcioni/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.10.21-18.35.56:415][  0]LogInit: Selected Device Profile: [Windows]
-[2015.10.21-18.35.56:418][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.10.21-18.35.56:548][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.10.21-18.35.56:548][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.10.21-18.35.56:809][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.10.21-18.35.57:580][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.10.21-18.35.57:703][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
-[2015.10.21-18.35.57:911][  0]SourceControl: Info Source control is disabled
-[2015.10.21-18.35.57:925][  0]SourceControl: Info Source control is disabled
-[2015.10.21-18.35.57:940][  0]SourceControl: Info Source control is disabled
-[2015.10.21-18.35.57:951][  0]SourceControl: Info Source control is disabled
-[2015.10.21-18.35.58:126][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.10.21-18.35.58:198][  0]LogObj: 28361 objects as part of root set at end of initial load.
-[2015.10.21-18.35.58:198][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
-[2015.10.21-18.35.58:253][  0]LogEngine: Initializing Engine...
-[2015.10.21-18.35.58:256][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2015.10.21-18.35.58:256][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2015.10.21-18.35.58:380][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.10.21-18.35.58:385][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.21-18.35.58:406][  0]LogInit: FAudioDevice initialized.
-[2015.10.21-18.35.58:425][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/pcioni/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.10.21-18.35.58:429][  0]LogInit: Texture streaming: Enabled
-[2015.10.21-18.35.58:434][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.10.21-18.35.58:434][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.10.21-18.35.58:434][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 78078ada40d2394d17cca89bd04ddbb8|b54514f40c274bdf9832e787158d8c3f|6e83b8a3-5421-49bd-82f3-de5641a1873d
-[2015.10.21-18.35.58:434][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.10.21-18.35.58:462][  0]LogInit: Transaction tracking system initialized
-[2015.10.21-18.35.58:497][  0]BlueprintLog: New page: Editor Load
-[2015.10.21-18.35.59:721][  0]LocalizationService: Info Localization service is disabled
-[2015.10.21-18.35.59:982][  0]LogConsoleResponse:Display: 
-[2015.10.21-18.36.00:136][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.10.21-18.36.00:220][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pcioni/Desktop/GD1/Content/' took 0.01s
-[2015.10.21-18.36.00:220][  0]SourceControl: Info Source control is disabled
-[2015.10.21-18.36.00:221][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.9/FeaturePacks/StarterContent.upack)
-[2015.10.21-18.36.00:228][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2015.10.21-18.36.00:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2015.10.21-18.36.00:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2015.10.21-18.36.00:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2015.10.21-18.36.00:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2015.10.21-18.36.00:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2015.10.21-18.36.00:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2015.10.21-18.36.00:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2015.10.21-18.36.00:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2015.10.21-18.36.00:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2015.10.21-18.36.00:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2015.10.21-18.36.00:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2015.10.21-18.36.00:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Collapse01.uasset"
-[2015.10.21-18.36.00:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Collapse02.uasset"
-[2015.10.21-18.36.00:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2015.10.21-18.36.00:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Explosion01.uasset"
-[2015.10.21-18.36.00:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Explosion02.uasset"
-[2015.10.21-18.36.00:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2015.10.21-18.36.00:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Fire01.uasset"
-[2015.10.21-18.36.00:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2015.10.21-18.36.00:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2015.10.21-18.36.00:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2015.10.21-18.36.00:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Light01.uasset"
-[2015.10.21-18.36.00:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2015.10.21-18.36.00:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Light02.uasset"
-[2015.10.21-18.36.00:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2015.10.21-18.36.00:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Smoke01.uasset"
-[2015.10.21-18.36.00:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2015.10.21-18.36.00:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2015.10.21-18.36.00:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2015.10.21-18.36.00:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2015.10.21-18.36.00:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2015.10.21-18.36.00:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2015.10.21-18.36.00:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2015.10.21-18.36.00:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Steam01.uasset"
-[2015.10.21-18.36.00:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2015.10.21-18.36.00:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2015.10.21-18.36.00:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2015.10.21-18.36.00:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2015.10.21-18.36.00:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2015.10.21-18.36.00:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2015.10.21-18.36.00:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2015.10.21-18.36.00:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2015.10.21-18.36.00:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2015.10.21-18.36.00:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2015.10.21-18.36.00:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2015.10.21-18.36.00:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2015.10.21-18.36.00:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2015.10.21-18.36.00:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2015.10.21-18.36.00:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2015.10.21-18.36.00:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2015.10.21-18.36.00:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2015.10.21-18.36.00:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2015.10.21-18.36.00:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2015.10.21-18.36.00:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Maps/Minimal_Default.umap"
-[2015.10.21-18.36.00:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Maps/StarterMap.umap"
-[2015.10.21-18.36.00:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2015.10.21-18.36.00:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2015.10.21-18.36.00:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2015.10.21-18.36.00:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2015.10.21-18.36.00:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2015.10.21-18.36.00:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2015.10.21-18.36.00:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2015.10.21-18.36.00:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2015.10.21-18.36.00:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2015.10.21-18.36.00:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2015.10.21-18.36.00:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2015.10.21-18.36.00:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2015.10.21-18.36.00:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2015.10.21-18.36.00:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2015.10.21-18.36.00:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2015.10.21-18.36.00:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2015.10.21-18.36.00:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2015.10.21-18.36.00:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Glass.uasset"
-[2015.10.21-18.36.00:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2015.10.21-18.36.00:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2015.10.21-18.36.00:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2015.10.21-18.36.00:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2015.10.21-18.36.00:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2015.10.21-18.36.00:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2015.10.21-18.36.00:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2015.10.21-18.36.00:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2015.10.21-18.36.00:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2015.10.21-18.36.00:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2015.10.21-18.36.00:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2015.10.21-18.36.00:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2015.10.21-18.36.00:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2015.10.21-18.36.00:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2015.10.21-18.36.00:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2015.10.21-18.36.00:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2015.10.21-18.36.00:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2015.10.21-18.36.00:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2015.10.21-18.36.00:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2015.10.21-18.36.00:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2015.10.21-18.36.00:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2015.10.21-18.36.00:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2015.10.21-18.36.00:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2015.10.21-18.36.00:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2015.10.21-18.36.00:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2015.10.21-18.36.00:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2015.10.21-18.36.00:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Particles/P_Explosion.uasset"
-[2015.10.21-18.36.00:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Particles/P_Fire.uasset"
-[2015.10.21-18.36.00:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Particles/P_Smoke.uasset"
-[2015.10.21-18.36.00:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Particles/P_Sparks.uasset"
-[2015.10.21-18.36.00:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2015.10.21-18.36.00:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2015.10.21-18.36.00:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2015.10.21-18.36.00:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2015.10.21-18.36.00:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2015.10.21-18.36.00:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2015.10.21-18.36.00:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2015.10.21-18.36.00:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2015.10.21-18.36.00:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2015.10.21-18.36.00:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2015.10.21-18.36.00:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2015.10.21-18.36.00:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/MaterialSphere.uasset"
-[2015.10.21-18.36.00:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/SM_Bush.uasset"
-[2015.10.21-18.36.00:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/SM_Chair.uasset"
-[2015.10.21-18.36.00:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2015.10.21-18.36.00:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/SM_Couch.uasset"
-[2015.10.21-18.36.00:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/SM_Door.uasset"
-[2015.10.21-18.36.00:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2015.10.21-18.36.00:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2015.10.21-18.36.00:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2015.10.21-18.36.00:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2015.10.21-18.36.00:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2015.10.21-18.36.00:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2015.10.21-18.36.00:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2015.10.21-18.36.00:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/SM_Rock.uasset"
-[2015.10.21-18.36.00:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/SM_Shelf.uasset"
-[2015.10.21-18.36.00:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/SM_Stairs.uasset"
-[2015.10.21-18.36.00:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/SM_Statue.uasset"
-[2015.10.21-18.36.00:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/SM_TableRound.uasset"
-[2015.10.21-18.36.00:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2015.10.21-18.36.00:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2015.10.21-18.36.00:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2015.10.21-18.36.00:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2015.10.21-18.36.00:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2015.10.21-18.36.00:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2015.10.21-18.36.00:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2015.10.21-18.36.00:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2015.10.21-18.36.00:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2015.10.21-18.36.00:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2015.10.21-18.36.00:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2015.10.21-18.36.00:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2015.10.21-18.36.00:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2015.10.21-18.36.00:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2015.10.21-18.36.00:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2015.10.21-18.36.00:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2015.10.21-18.36.00:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2015.10.21-18.36.00:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2015.10.21-18.36.00:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2015.10.21-18.36.00:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2015.10.21-18.36.00:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2015.10.21-18.36.00:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2015.10.21-18.36.00:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2015.10.21-18.36.00:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2015.10.21-18.36.00:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2015.10.21-18.36.00:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2015.10.21-18.36.00:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2015.10.21-18.36.00:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2015.10.21-18.36.00:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2015.10.21-18.36.00:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2015.10.21-18.36.00:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2015.10.21-18.36.00:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2015.10.21-18.36.00:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2015.10.21-18.36.00:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2015.10.21-18.36.00:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2015.10.21-18.36.00:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2015.10.21-18.36.00:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2015.10.21-18.36.00:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2015.10.21-18.36.00:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2015.10.21-18.36.00:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2015.10.21-18.36.01:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2015.10.21-18.36.01:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2015.10.21-18.36.01:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2015.10.21-18.36.01:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2015.10.21-18.36.01:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2015.10.21-18.36.01:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2015.10.21-18.36.01:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2015.10.21-18.36.01:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2015.10.21-18.36.01:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2015.10.21-18.36.01:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2015.10.21-18.36.01:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2015.10.21-18.36.01:077][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2015.10.21-18.36.01:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2015.10.21-18.36.01:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2015.10.21-18.36.01:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2015.10.21-18.36.01:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2015.10.21-18.36.01:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2015.10.21-18.36.01:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2015.10.21-18.36.01:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2015.10.21-18.36.01:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2015.10.21-18.36.01:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2015.10.21-18.36.01:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2015.10.21-18.36.01:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2015.10.21-18.36.01:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2015.10.21-18.36.01:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2015.10.21-18.36.01:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2015.10.21-18.36.01:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2015.10.21-18.36.01:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2015.10.21-18.36.01:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2015.10.21-18.36.01:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2015.10.21-18.36.01:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2015.10.21-18.36.01:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Door_M.uasset"
-[2015.10.21-18.36.01:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Door_N.uasset"
-[2015.10.21-18.36.01:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2015.10.21-18.36.01:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2015.10.21-18.36.01:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2015.10.21-18.36.01:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2015.10.21-18.36.01:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2015.10.21-18.36.01:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2015.10.21-18.36.01:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2015.10.21-18.36.01:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2015.10.21-18.36.01:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2015.10.21-18.36.01:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2015.10.21-18.36.01:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2015.10.21-18.36.01:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2015.10.21-18.36.01:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2015.10.21-18.36.01:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2015.10.21-18.36.01:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2015.10.21-18.36.01:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2015.10.21-18.36.01:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2015.10.21-18.36.01:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2015.10.21-18.36.01:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2015.10.21-18.36.01:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2015.10.21-18.36.01:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2015.10.21-18.36.01:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2015.10.21-18.36.01:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2015.10.21-18.36.01:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2015.10.21-18.36.01:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2015.10.21-18.36.01:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2015.10.21-18.36.01:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2015.10.21-18.36.01:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2015.10.21-18.36.01:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2015.10.21-18.36.01:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2015.10.21-18.36.01:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2015.10.21-18.36.01:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2015.10.21-18.36.01:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2015.10.21-18.36.01:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2015.10.21-18.36.01:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2015.10.21-18.36.01:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2015.10.21-18.36.01:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2015.10.21-18.36.01:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2015.10.21-18.36.01:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2015.10.21-18.36.01:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2015.10.21-18.36.01:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2015.10.21-18.36.01:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2015.10.21-18.36.01:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2015.10.21-18.36.01:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2015.10.21-18.36.01:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2015.10.21-18.36.01:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2015.10.21-18.36.01:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2015.10.21-18.36.01:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2015.10.21-18.36.01:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2015.10.21-18.36.01:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2015.10.21-18.36.01:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2015.10.21-18.36.01:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Water_M.uasset"
-[2015.10.21-18.36.01:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Water_N.uasset"
-[2015.10.21-18.36.01:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2015.10.21-18.36.01:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2015.10.21-18.36.01:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2015.10.21-18.36.01:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2015.10.21-18.36.01:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2015.10.21-18.36.02:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2015.10.21-18.36.02:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2015.10.21-18.36.02:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2015.10.21-18.36.02:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2015.10.21-18.36.02:644][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
-[2015.10.21-18.36.02:802][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
-[2015.10.21-18.36.02:820][  0]LogSavePackage: Save=11.749268ms
-[2015.10.21-18.36.02:820][  0]LogSavePackage: Moving '../../../../../../Users/pcioni/Desktop/GD1/Saved/Floor_400x400B252ECE2414591EF40E03392C9B35B3A.tmp' to '../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2015.10.21-18.36.02:822][  0]LogSavePackage: Total save time: 18.054780ms
-[2015.10.21-18.36.02:822][  0]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2015.10.21-18.36.02:823][  0]LogFeaturePack:Warning: Inserted 1 feature packs
-[2015.10.21-18.36.02:824][  0]Cmd: MAP LOAD FILE="../../../../../../Users/pcioni/Desktop/GD1/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.21-18.36.02:825][  0]LightingResults: New page: Lighting Build
-[2015.10.21-18.36.02:828][  0]MapCheck: New page: Map Check
-[2015.10.21-18.36.02:828][  0]LightingResults: New page: Lighting Build
-[2015.10.21-18.36.02:844][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000308EFE4900
-[2015.10.21-18.36.03:399][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2015.10.21-18.36.03:406][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.21-18.36.03:406][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.10.21-18.36.03:457][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.217ms to complete.
-[2015.10.21-18.36.03:457][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.634
-[2015.10.21-18.36.03:558][  0]LogCollectionManager: Loaded 0 collections in 0.002003 seconds
-[2015.10.21-18.36.04:969][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pcioni/Desktop/GD1/Saved/Collections/' took 0.01s
-[2015.10.21-18.36.04:969][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pcioni/Desktop/GD1/Content/Developers/pcioni/Collections/' took 0.01s
-[2015.10.21-18.36.04:969][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pcioni/Desktop/GD1/Content/Collections/' took 0.01s
-[2015.10.21-18.36.04:969][  0]LogContentBrowser: Native class hierarchy populated in 0.0202 seconds. Added 1867 classes and 333 folders.
-[2015.10.21-18.36.04:981][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
-[2015.10.21-18.36.04:997][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2015.10.21-18.36.05:043][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2015.10.21-18.36.05:047][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2015.10.21-18.36.05:071][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.10.21-18.36.05:075][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.10.21-18.36.05:098][  0]LogLoad: Full Startup: 11.82 seconds (BP compile: 0.04 seconds)
-[2015.10.21-18.36.13:389][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2015.10.21-18.36.13:476][  0]LogRenderer: Reallocating scene render targets to support 1004x456 (Frame:3).
-[2015.10.21-18.36.14:317][  5]LogAssetRegistry: Asset discovery search completed in 16.6254 seconds
-[2015.10.21-18.36.14:317][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2015.10.21-18.36.14:317][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
-[2015.10.21-18.36.21:308][202]LogEditorActor: Deleted Actor: AmbientSound
-[2015.10.21-18.36.21:308][202]LogEditorActor: Deleted Actor: PlayerStart
-[2015.10.21-18.36.24:350][202]LogEditorActor: Deleted Actor: DirectionalLight
-[2015.10.21-18.36.24:384][202]LogEditorActor: Deleted Actor: SkyLight
-[2015.10.21-18.36.24:385][202]LogEditorActor: Deleted Actor: SphereReflectionCapture
-[
+﻿[2015.11.04-19.34.55:193][  0]Log file open, 11/04/15 14:34:55
+[2015.11.04-19.34.55:193][  0]LogInit:Display: Running engine for game: GD1
+[2015.11.04-19.34.55:193][  0]LogInit:Display: RandInit(429056935) SRandInit(429056936).
+[2015.11.04-19.34.55:193][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.11.04-19.34.55:193][  0]LogStats: Stats thread started at 0.057678
+[2015.11.04-19.34.55:193][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.04-19.34.55:193][  0]LogInit: API Version: 2672455
+[2015.11.04-19.34.55:193][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.04-19.34.55:193][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.04-19.34.55:193][  0]LogInit: Build Configuration: Development
+[2015.11.04-19.34.55:193][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.04-19.34.55:193][  0]LogInit: Command line:  
+[2015.11.04-19.34.55:193][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.04-19.34.55:193][  0]LogInit: Rocket: 1
+[2015.11.04-19.34.55:204][  0]LogInit: Using libcurl 7.41.0
+[2015.11.04-19.34.55:204][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.04-19.34.55:204][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.04-19.34.55:204][  0]LogInit:  - other features:
+[2015.11.04-19.34.55:204][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.04-19.34.55:204][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.04-19.34.55:204][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.04-19.34.55:204][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.04-19.34.55:204][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.04-19.34.55:204][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.04-19.34.55:204][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.04-19.34.55:204][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.04-19.34.55:204][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.04-19.34.55:204][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.04-19.34.55:213][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.04-19.34.55:221][  0]LogInit: Object subsystem initialized
+[2015.11.04-19.34.55:223][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.04-19.34.55:223][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.04-19.34.55:234][  0]LogInit: Computer: LAROSA2T430S
+[2015.11.04-19.34.55:234][  0]LogInit: User: larosa2
+[2015.11.04-19.34.55:234][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.11.04-19.34.55:234][  0]LogInit: High frequency timer resolution =2.825664 MHz
+[2015.11.04-19.34.55:234][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2015.11.04-19.34.55:234][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.04-19.34.55:234][  0]LogMemory: Process Physical Memory: 53.86 MB used, 53.86 MB peak
+[2015.11.04-19.34.55:234][  0]LogMemory: Process Virtual Memory: 58.43 MB used, 58.43 MB peak
+[2015.11.04-19.34.55:234][  0]LogMemory: Physical Memory: 3129.68 MB used, 7888.80 MB total
+[2015.11.04-19.34.55:234][  0]LogMemory: Virtual Memory: 338.20 MB used, 8388608.00 MB total
+[2015.11.04-19.34.55:280][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.04-19.34.56:139][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA NVS 5200M (Feature Level 11_0)
+[2015.11.04-19.34.56:140][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2015.11.04-19.34.56:152][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA NVS 5200M (Feature Level 11_0)
+[2015.11.04-19.34.56:152][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 0 output[s]
+[2015.11.04-19.34.56:152][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.04-19.34.56:160][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.04-19.34.56:160][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
+[2015.11.04-19.34.56:173][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.04-19.34.56:188][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/larosa2/My Games/GD1/Intermediate/Shaders/WorkingDirectory/1656/).
+[2015.11.04-19.34.56:188][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/larosa2/My Games/GD1/Intermediate/Shaders/tmp/9DD1BFA94E4BD104B5B822BE4ED744FB/'.
+[2015.11.04-19.34.56:188][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.04-19.34.57:497][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.04-19.34.57:504][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.04-19.34.57:510][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.04-19.34.57:516][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.04-19.34.57:522][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.04-19.34.57:526][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.04-19.34.57:530][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.04-19.34.57:534][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.04-19.34.57:538][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.04-19.34.57:542][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.04-19.34.57:546][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.04-19.34.57:551][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.04-19.34.57:551][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.04-19.34.57:569][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.04-19.34.57:573][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.04-19.34.57:577][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.04-19.34.57:581][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.04-19.34.57:581][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.04-19.34.57:688][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.04-19.34.57:730][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/larosa2/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.04-19.34.57:730][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/larosa2/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.04-19.34.57:730][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/larosa2/My Games/GD1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.04-19.34.57:730][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.04-19.34.57:730][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/larosa2/My Games/GD1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.04-19.34.57:730][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.04-19.34.57:891][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.04-19.34.57:903][  0]LogDerivedDataCache: Using Local data cache path C:/Users/larosa2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.04-19.34.58:113][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.04-19.34.58:114][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.04-19.34.58:144][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.04-19.34.58:144][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.04-19.34.58:561][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.04-19.34.59:381][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.04-19.34.59:480][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2015.11.04-19.34.59:691][  0]SourceControl: Info Source control is disabled
+[2015.11.04-19.34.59:728][  0]SourceControl: Info Source control is disabled
+[2015.11.04-19.34.59:747][  0]SourceControl: Info Source control is disabled
+[2015.11.04-19.34.59:768][  0]SourceControl: Info Source control is disabled
+[2015.11.04-19.34.59:957][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.04-19.35.00:058][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.04-19.35.00:058][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.11.04-19.35.00:118][  0]LogEngine: Initializing Engine...
+[2015.11.04-19.35.00:122][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.04-19.35.00:123][  0]LogHMD: SteamVR failed to initialize.  Err: 100
+[2015.11.04-19.35.00:266][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.04-19.35.00:271][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.04-19.35.00:311][  0]LogInit: FAudioDevice initialized.
+[2015.11.04-19.35.00:337][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/larosa2/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.04-19.35.00:341][  0]LogInit: Texture streaming: Enabled
+[2015.11.04-19.35.00:347][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.04-19.35.00:347][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.04-19.35.00:348][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId f9e018a54da841c4170f82a7d35c063e|349979d5528e471aa085e7652a6abe9c|a81bc34c-fd37-418f-86d6-7d22b436766f
+[2015.11.04-19.35.00:348][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.04-19.35.00:410][  0]LogInit: Transaction tracking system initialized
+[2015.11.04-19.35.00:449][  0]BlueprintLog: New page: Editor Load
+[2015.11.04-19.35.00:594][  0]LocalizationService: Info Localization service is disabled
+[2015.11.04-19.35.00:951][  0]LogConsoleResponse:Display: 
+[2015.11.04-19.35.01:133][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.04-19.35.01:244][  0]LogFileCache: Scanning file cache for directory 'C:/Users/larosa2/My Games/GD1/Content/' took 0.01s
+[2015.11.04-19.35.01:244][  0]SourceControl: Info Source control is disabled
+[2015.11.04-19.35.01:244][  0]Cmd: MAP LOAD FILE="../../../../../../Users/larosa2/My Games/GD1/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.04-19.35.01:245][  0]LightingResults: New page: Lighting Build
+[2015.11.04-19.35.01:252][  0]MapCheck: New page: Map Check
+[2015.11.04-19.35.01:252][  0]LightingResults: New page: Lighting Build
+[2015.11.04-19.35.01:276][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024A0A160
+[2015.11.04-19.35.01:810][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.11.04-19.35.01:819][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.04-19.35.01:819][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.04-19.35.01:910][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.781ms to complete.
+[2015.11.04-19.35.01:910][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.666
+[2015.11.04-19.35.02:042][  0]LogCollectionManager: Loaded 0 collections in 0.004176 seconds
+[2015.11.04-19.35.02:085][  0]LogFileCache: Scanning file cache for directory 'C:/Users/larosa2/My Games/GD1/Saved/Collections/' took 0.01s
+[2015.11.04-19.35.02:085][  0]LogFileCache: Scanning file cache for directory 'C:/Users/larosa2/My Games/GD1/Content/Developers/larosa2/Collections/' took 0.01s
+[2015.11.04-19.35.02:085][  0]LogFileCache: Scanning file cache for directory 'C:/Users/larosa2/My Games/GD1/Content/Collections/' took 0.01s
+[2015.11.04-19.35.02:085][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 1867 classes and 333 folders.
+[2015.11.04-19.35.02:093][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.11.04-19.35.02:104][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.11.04-19.35.02:182][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.11.04-19.35.02:188][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.11.04-19.35.02:221][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.04-19.35.02:227][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.04-19.35.02:250][  0]LogLoad: Full Startup: 7.64 seconds (BP compile: 0.06 seconds)
+[2015.11.04-19.35.02:317][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.11.04-19.35.02:459][  0]LogRenderer: Reallocating scene render targets to support 856x572 (Frame:2).
+[2015.11.04-19.35.02:798][  4]LogAssetRegistry: Asset discovery search completed in 3.3279 seconds
+[2015.11.04-19.35.02:798][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.04-19.35.02:798][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2015.11.04-19.37.11:724][398]Cmd: QUIT_EDITOR
+[2015.11.04-19.37.12:004][398]LogExit: Preparing to exit.
+[2015.11.04-19.37.12:422][398]LogExit: Editor shut down
+[2015.11.04-19.37.12:423][398]LogExit: Transaction tracking system shut down
+[2015.11.04-19.37.12:424][398]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001341E700
+[2015.11.04-19.37.12:425][398]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026F2E660
+[2015.11.04-19.37.12:425][398]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A1FD3A0
+[2015.11.04-19.37.12:543][398]LogExit: Object subsystem successfully closed.
+[2015.11.04-19.37.12:549][398]LogD3D11RHI: Shutdown
+[2015.11.04-19.37.12:549][398]LogD3D11RHI: CleanupD3DDevice
+[2015.11.04-19.37.12:591][398]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.04-19.37.12:614][398]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.11.04-19.37.12:614][398]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.11.04-19.37.12:614][398]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.11.04-19.37.12:614][398]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.11.04-19.37.12:614][398]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.11.04-19.37.12:615][398]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.11.04-19.37.12:615][398]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.11.04-19.37.12:616][398]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.11.04-19.37.12:675][398]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.11.04-19.37.12:676][398]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.11.04-19.37.12:859][398]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.11.04-19.37.12:859][398]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.11.04-19.37.12:859][398]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.11.04-19.37.12:859][398]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.11.04-19.37.12:859][398]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.11.04-19.37.12:859][398]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.11.04-19.37.12:859][398]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.11.04-19.37.12:859][398]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.11.04-19.37.12:870][398]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.11.04-19.37.12:871][398]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.11.04-19.37.12:872][398]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.11.04-19.37.12:963][398]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.11.04-19.37.12:964][398]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.11.04-19.37.12:964][398]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.04-19.37.13:064][398]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.04-19.37.13:064][398]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.04-19.37.13:064][398]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.04-19.37.13:067][398]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.04-19.37.13:067][398]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.04-19.37.13:067][398]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.04-19.37.13:067][398]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.04-19.37.13:067][398]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.04-19.37.13:067][398]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.04-19.37.13:067][398]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.04-19.37.13:067][398]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.04-19.37.13:067][398]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.04-19.37.13:067][398]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.04-19.37.13:067][398]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.04-19.37.13:068][398]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.04-19.37.13:068][398]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.04-19.37.13:068][398]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.04-19.37.13:068][398]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.04-19.37.13:068][398]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.04-19.37.13:070][398]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.04-19.37.13:070][398]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.04-19.37.13:070][398]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.04-19.37.13:070][398]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.04-19.37.13:070][398]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.04-19.37.13:070][398]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.04-19.37.13:070][398]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.04-19.37.13:070][398]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.04-19.37.13:070][398]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.04-19.37.13:070][398]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.04-19.37.13:071][398]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.04-19.37.13:074][398]LogDerivedDataCache: Shutdown
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.04-19.37.13:074][398]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.04-19.37.15:075][398]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.04-19.37.15:075][398]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.04-19.37.15:075][398]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.04-19.37.15:075][398]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.04-19.37.15:075][398]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.04-19.37.15:075][398]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.04-19.37.15:075][398]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.04-19.37.15:075][398]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.04-19.37.15:075][398]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.04-19.37.15:075][398]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.04-19.37.15:075][398]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.04-19.37.15:076][398]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.04-19.37.15:076][398]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.04-19.37.15:076][398]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.04-19.37.15:076][398]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.04-19.37.15:076][398]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.04-19.37.15:076][398]LogExit: Exiting.
+[2015.11.04-19.37.15:077][398]Log file closed, 11/04/15 14:37:15
